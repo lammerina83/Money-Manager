@@ -1,2 +1,17 @@
-# Money-Manager
-The design and implementation of a personal money manager aimed at assisting individuals in making smart financial decisions. Middle class consumers do not have enough time to manage their personal finance. Some of them are not able to manage their income and outcome. 
+
+
+#### What you need to run this code
+1. Node (13.12.0)
+2. NPM (6.14.4)
+3. MongoDB (4.2.0)
+
+####  How to run this code
+1. Make sure MongoDB is running on your system
+2. Clone this repository
+3. Open command line in the cloned folder,
+   - To install dependencies, run ```  npm install  ```
+   - To run the application for development, run ```  npm run development  ```
+   - If any error related to ssl open command prompt and use command 
+   ``` set NODE_OPTIONS=--openssl-legacy-provider ```
+4. Open [localhost:3000](http://localhost:3000/) in the browser
+----
